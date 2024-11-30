@@ -8,6 +8,7 @@ public class BirdScript : MonoBehaviour
     public Rigidbody2D rb;
     public LogicScript logic;
     public bool alive = true;
+    public AudioSource wingFlip;
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
@@ -18,6 +19,13 @@ public class BirdScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && alive)
         {
             rb.velocity = Vector2.up * jumpForce;
+            wingFlip.Play();
+        }
+
+        if(transform.position.y < -17.6 ||  transform.position.y > 17.6)
+        {
+            logic.gameOver();
+            alive = false;
         }
     }
 

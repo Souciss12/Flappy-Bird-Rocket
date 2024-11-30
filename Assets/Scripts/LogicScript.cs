@@ -9,12 +9,18 @@ public class LogicScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;
+    public bool birdAlive = true;
+    public AudioSource dingSFX;
 
     [ContextMenu("Increase Score")]
     public void addScore(int addScore)
     {
-        playerScore += addScore;
-        scoreText.text = playerScore.ToString();
+        if (birdAlive)
+        {
+            dingSFX.Play();
+            playerScore += addScore;
+            scoreText.text = playerScore.ToString();
+        }
     }
 
     public void restartGame()
@@ -25,6 +31,6 @@ public class LogicScript : MonoBehaviour
     public void gameOver()
     {
         gameOverScreen.SetActive(true);
-        Debug.Log("game over screen set actie true");
+        birdAlive = false;
     }
 }
