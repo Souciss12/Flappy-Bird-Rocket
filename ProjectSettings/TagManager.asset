@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Logic
+  - button
+  - missile
+  - pipe
+  - pipeDown
   layers:
   - Default
   - TransparentFX
@@ -12,8 +16,8 @@ TagManager:
   - Bird
   - Water
   - UI
-  - 
-  - 
+  - Missile
+  - Button
   - 
   - 
   - 

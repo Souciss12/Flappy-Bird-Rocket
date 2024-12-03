@@ -31,7 +31,10 @@ public class BirdScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        logic.gameOver();
-        alive = false;
+        if (collision.gameObject.tag == "pipe" || collision.gameObject.tag == "pipeDown")
+        {
+            logic.gameOver();
+            alive = false;
+        }
     }
 }
