@@ -33,6 +33,8 @@ public class BirdScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "pipe" || collision.gameObject.tag == "pipeDown")
         {
+            if(alive)
+                logic.birdExplosion(transform);
             logic.gameOver();
             alive = false;
         }

@@ -6,7 +6,7 @@ public class PipeDownScript : MonoBehaviour
 {
     private bool isDown = false;
 
-    private int moveDown = 5;
+    private int moveDown = 4;
     public float MoveTime = 2;
     private float timer = 0;
 

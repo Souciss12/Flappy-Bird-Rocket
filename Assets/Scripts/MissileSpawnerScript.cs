@@ -9,6 +9,7 @@ public class MissileSpawnerScript : MonoBehaviour
     public GameObject bird;
     public GameObject missile;
     private LogicScript logic;
+    public AudioSource missileLaunch;
 
     void Start()
     {
@@ -20,13 +21,14 @@ public class MissileSpawnerScript : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && logic.birdAlive) 
         {
             SpawnMissile();
+            missileLaunch.Play();
         }
     }
 
     void SpawnMissile()
     {
-        float posX = bird.transform.position.x + 4;
-        float posY = bird.transform.position.y;
+        float posX = bird.transform.position.x + 1;
+        float posY = bird.transform.position.y - 2;
 
         Instantiate(missile, new Vector3(posX, posY), missile.transform.rotation);
     }
