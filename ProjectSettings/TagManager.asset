@@ -9,6 +9,7 @@ TagManager:
   - missile
   - pipe
   - pipeDown
+  - munition
   layers:
   - Default
   - TransparentFX

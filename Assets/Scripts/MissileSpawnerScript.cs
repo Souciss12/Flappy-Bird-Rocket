@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.VisualScripting;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 
 public class MissileSpawnerScript : MonoBehaviour
@@ -20,8 +21,12 @@ public class MissileSpawnerScript : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && logic.birdAlive) 
         {
-            SpawnMissile();
-            missileLaunch.Play();
+            if(logic.munition > 0)
+            {
+                SpawnMissile();
+                missileLaunch.Play();
+                logic.munition -= 1;
+            }
         }
     }
 

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class LogicScript : MonoBehaviour
 {
     public int playerScore;
+    public int munition;
     public Text scoreText;
     public GameObject gameOverScreen;
     public bool birdAlive = true;
@@ -52,5 +53,15 @@ public class LogicScript : MonoBehaviour
     public void button()
     {
         buttonSound.Play();
+    }
+
+    public void addMunition()
+    {
+        munition++;
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
