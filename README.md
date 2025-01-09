@@ -1,26 +1,29 @@
 # Flappy Bird Rocket
 
-Ce projet est une refonte du jeu Flappy Bird créée avec Unity, où le joueur contrôle un oiseau équipé d'un lance-roquettes. Le joueur doit passer entre des tuyaux en utilisant le lance-roquettes pour ouvrir les passages.
-Gameplay
+This project is a remake of the Flappy Bird game created with Unity, where the player controls a bird equipped with a rocket launcher. The player must pass between pipes using the rocket launcher to open the passages.
+## Gameplay
 
-    Contrôles :
-        Appuyez sur la touche Espace pour sauter.
-        Cliquez avec le bouton gauche de la souris pour tirer des roquettes.
-    Objectif :
-        Passez entre les tuyaux en utilisant les roquettes récupérées en l'air pour appuyer 
-        sur un bouton sur les tuyaux et les ouvrir.
+#### Controls:
+  - Press the Space key to jump.
+  - Click the left mouse button to shoot rockets.
+#### Objective:
+  - Collect rockets in the air.
+  - Open the pipes by shooting the buttons.
+  - Achieve the highest score.
 
-Installation
+## Installation
+1. Clone the repository : 
+  ```bash
+  git clone https://github.com/Souciss12/Flappy-Bird-Rocket.git
+  ```
+2. Open the project in Unity.
+3. Press the Play button to start playing.
 
-    Clonez le dépôt : git clone https://github.com/Souciss12/Flappy-Bird-Rocket.git
-    Ouvrez le projet dans Unity.
-    Appuyez sur le bouton Play pour commencer à jouer.
+## Credits
 
-Crédits
+Game developed by : Souciss_12
 
-    Jeu développé par : Souciss_12
+## Acknowledgments
 
-Remerciements
-
-Je tiens à remercier cette vidéo YouTube qui m'a beaucoup aidé dans la réalisation de ce projet.
+I would like to thank this YouTube video which greatly helped in the creation of this project.
   - https://www.youtube.com/watch?v=XtQMytORBmM
