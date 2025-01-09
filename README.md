@@ -25,5 +25,4 @@ Game developed by : Souciss_12
 
 ## Acknowledgments
 
-I would like to thank this YouTube video which greatly helped in the creation of this project.
-  - https://www.youtube.com/watch?v=XtQMytORBmM
+I would like to thank this [YouTube video](https://www.youtube.com/watch?v=XtQMytORBmM) which greatly helped in the creation of this project.
