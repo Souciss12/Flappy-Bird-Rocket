@@ -1,5 +1,7 @@
 # Flappy Bird Rocket
 
+<img alt="Unity Version" src="https://img.shields.io/badge/Unity-2022.3.27f1-blue.svg"> <img alt="Downloads" src="https://img.shields.io/github/downloads/Souciss12/Souciss-FPS/total"> <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Souciss12/Souciss-FPS">
+
 This project is a remake of the Flappy Bird game created with Unity, where the player controls a bird equipped with a rocket launcher. The player must pass between pipes using the rocket launcher to open the passages.
 ## Gameplay
 
