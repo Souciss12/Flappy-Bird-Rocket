@@ -11,14 +11,6 @@ This project is a remake of the Flappy Bird game created with Unity, where the p
   - Open the pipes by shooting the buttons.
   - Achieve the highest score.
 
-## Installation
-1. Clone the repository : 
-  ```bash
-  git clone https://github.com/Souciss12/Flappy-Bird-Rocket.git
-  ```
-2. Open the project in Unity.
-3. Press the Play button to start playing.
-
 ## Credits
 
 Game developed by : Souciss_12
